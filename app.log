@@ -1,0 +1,20 @@
+2025-03-16 19:26:32,761 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.89.112:5000
+2025-03-16 19:26:32,761 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 19:26:33,231 - INFO - Request received. Response: {'node_ip': '172.31.89.112', 'date': '2025-03-16 19:26:33', 'os': 'Linux 6.1.129-138.220.amzn2023.x86_64', 'cpu_count': 1, 'total_memory_bytes': 995581952, 'message': 'Hello from Amazon Linux EC2 instance!', 'version': '1.0.0', 'hostname': 'ip-172-31-89-112.ec2.internal'}
+2025-03-16 19:26:33,236 - INFO - 49.37.135.217 - - [16/Mar/2025 19:26:33] "GET /myapp/ HTTP/1.1" 200 -
+2025-03-16 19:26:33,704 - INFO - 49.37.135.217 - - [16/Mar/2025 19:26:33] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-16 19:26:33,747 - INFO - 49.37.135.217 - - [16/Mar/2025 19:26:33] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-03-16 19:26:33,753 - INFO - 49.37.135.217 - - [16/Mar/2025 19:26:33] "GET /static/images/sample-image.jpg HTTP/1.1" 200 -
+2025-03-16 19:26:36,460 - INFO - Request received. Response: {'node_ip': '172.31.89.112', 'date': '2025-03-16 19:26:36', 'os': 'Linux 6.1.129-138.220.amzn2023.x86_64', 'cpu_count': 1, 'total_memory_bytes': 995581952, 'message': 'Hello from Amazon Linux EC2 instance!', 'version': '1.0.0', 'hostname': 'ip-172-31-89-112.ec2.internal'}
+2025-03-16 19:26:36,461 - INFO - 49.37.135.217 - - [16/Mar/2025 19:26:36] "GET /myapp/ HTTP/1.1" 200 -
+2025-03-16 19:26:36,713 - INFO - 49.37.135.217 - - [16/Mar/2025 19:26:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 19:26:36,943 - INFO - 49.37.135.217 - - [16/Mar/2025 19:26:36] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-03-16 19:26:36,953 - INFO - 49.37.135.217 - - [16/Mar/2025 19:26:36] "[36mGET /static/images/sample-image.jpg HTTP/1.1[0m" 304 -
+2025-03-16 19:26:39,016 - INFO - Request received. Response: {'node_ip': '172.31.89.112', 'date': '2025-03-16 19:26:39', 'os': 'Linux 6.1.129-138.220.amzn2023.x86_64', 'cpu_count': 1, 'total_memory_bytes': 995581952, 'message': 'Hello from Amazon Linux EC2 instance!', 'version': '1.0.0', 'hostname': 'ip-172-31-89-112.ec2.internal'}
+2025-03-16 19:26:39,017 - INFO - 49.37.135.217 - - [16/Mar/2025 19:26:39] "GET /myapp/ HTTP/1.1" 200 -
+2025-03-16 19:26:39,270 - INFO - 49.37.135.217 - - [16/Mar/2025 19:26:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 19:26:39,524 - INFO - 49.37.135.217 - - [16/Mar/2025 19:26:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-03-16 19:26:39,526 - INFO - 49.37.135.217 - - [16/Mar/2025 19:26:39] "[36mGET /static/images/sample-image.jpg HTTP/1.1[0m" 304 -
