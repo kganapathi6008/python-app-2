@@ -7,7 +7,7 @@ import logging
 
 app = Flask(__name__)
 
-# This is the Application version
+# This is the Application version.....
 APP_VERSION = "1.0.0"
 
 # Configure logging
