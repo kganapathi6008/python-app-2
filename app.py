@@ -20,7 +20,7 @@ logging.basicConfig(
     ]
 )
 
-@app.route('/myapp/')
+@app.route('/mynewapp/')
 def myapp():
     # Get system information
     node_ip = socket.gethostbyname(socket.gethostname())
